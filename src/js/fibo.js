@@ -1,5 +1,5 @@
 /*
-* 斐波那契数列 F(n) = Fn(n -1) + Fn(n - 2)
+* 斐波那契数列 F(n) = Fn(n - 1) + Fn(n - 2)
 */
 const fibo = (n) => {
   if (n < 1) return 0

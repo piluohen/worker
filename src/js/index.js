@@ -18,7 +18,7 @@ const generalFn = () => {
 const workerFn = () => {
   var worker = new Worker('/js/worker.js')
 
-  setInterval(function(){
+  setInterval(() => {
     // 将数据发送给worker线程
     worker.postMessage(n++)
     // 监听worker线程
