@@ -16,7 +16,7 @@ const generalFn = () => {
 
 // 开辟worker线程方法
 const workerFn = () => {
-  var worker = new Worker('/js/worker.js')
+  let worker = new Worker('/js/worker.js')
 
   setInterval(() => {
     // 将数据发送给worker线程

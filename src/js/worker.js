@@ -5,7 +5,7 @@ importScripts('fibo.js')
 self.onmessage = (e) => {
   // console.dir(e.data)
   let data = e.data
-  var result = fibo(data)
+  let result = fibo(data)
   // if (ev.data >= 12) {
   //   // 关闭进程
   //   self.close()
